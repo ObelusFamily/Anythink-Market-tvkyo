@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from "../imgs/topbar_logo.png";
 import mockImg from "../imgs/placeholder.png";
 
-
 const LoggedOutView = (props) => {
   if (!props.currentUser) {
     return (
