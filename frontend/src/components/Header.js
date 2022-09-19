@@ -67,6 +67,7 @@ class Header extends React.Component {
       >
         <Link to="/" className="navbar-brand">
           <img alt="logo" src={logo} />
+          
         </Link>
 
         <LoggedOutView currentUser={this.props.currentUser} />
